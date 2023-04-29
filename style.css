@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 10% 10%;
+}
+.imc__cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.imc__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+}
+.imc__form__input, .imc__form__div__btn{
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+}
+.imc__form__div__btn{
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 5px 4px rgb(0, 0, 0.25);
+}
+.logo{
+    width: 40px;
+}
+.imc__mensagem__img{
+    width: 700px;
+}
+h6{
+    font-size: 12px;
+}
